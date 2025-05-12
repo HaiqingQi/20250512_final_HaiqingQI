@@ -86,7 +86,7 @@ return myMap;
 }
 
 function mysignature() {
-  fill(300);
+  fill(255);
   textSize(12);
 
   text("Haiqing Qi", width - 80, height - 40);

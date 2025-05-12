@@ -3,7 +3,9 @@ class particle {
     this.x = posX;
     this.y = posY;
     this.pSize = radius;
-
+this.r = random(180, 200); 
+this.g = random(240, 255); 
+this.b = random(180, 210); 
     
     this.nPos1 = random(-1000, 1000);
     this.nPos2 = random(-1000, 1000);
@@ -24,4 +26,3 @@ class particle {
     this.y = yMove;
   }
 }
-
